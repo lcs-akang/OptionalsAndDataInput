@@ -79,3 +79,5 @@ PlaygroundPage.current.setLiveView(view)
  
  */
 //: [Next](@next)
+// 1. It's always a String data type
+// 2. String?

@@ -18,35 +18,35 @@
 
 // Attempt to convert a string with a numbers after the decimal sign to a boolean
 let input1 = "20.0"
-//let input1AsBool = Bool(input1)
-//print("---")
-//print("input1AsBool has a data type of:")
-//print(type(of: input1AsBool))
-//print("===")
+let input1AsBool = Bool(input1)
+print("---")
+print("input1AsBool has a data type of:")
+print(type(of: input1AsBool))
+print("===")
 
 // Attempt to convert a string with no numbers after the decimal sign to a boolean
 let input2 = "20"
-//let input2AsBool = Bool(input2)
-//print("---")
-//print("input2AsBool has a data type of:")
-//print(type(of: input2AsBool))
-//print("===")
+let input2AsBool = Bool(input2)
+print("---")
+print("input2AsBool has a data type of:")
+print(type(of: input2AsBool))
+print("===")
 
 // Attempt to convert a string that is not recognizable as a number to a boolean
 let input3 = "twenty"
-//let input3AsBool = Bool(input3)
-//print("---")
-//print("input3AsBool has a data type of:")
-//print(type(of: input3AsBool))
-//print("===")
+let input3AsBool = Bool(input3)
+print("---")
+print("input3AsBool has a data type of:")
+print(type(of: input3AsBool))
+print("===")
 
 // Attempt to convert a string, "true", to a boolean
 let input4 = "true"
-//let input4AsBool = Bool(input4)
-//print("---")
-//print("input4AsBool has a data type of:")
-//print(type(of: input4AsBool))
-//print("===")
+let input4AsBool = Bool(input4)
+print("---")
+print("input4AsBool has a data type of:")
+print(type(of: input4AsBool))
+print("===")
 
 /*:
  
@@ -66,5 +66,9 @@ let input4 = "true"
  ![option-click](option-click.png)
   
  */
-
+// 1. They succeeded when the string contained true, I would assume it would also work with false
+// 2. When the string contained something other than true/false
+// 3. nil
+// 4. It shows Optional(true)
+// 5. They are always an optional Bool data type
 //: [Next](@next)

@@ -18,35 +18,35 @@
 
 // Attempt to convert a string with a numbers after the decimal sign to a real number
 let input1 = "20.0"
-//let input1AsDouble = Double(input1)
-//print("---")
-//print("input1AsDouble has a data type of:")
-//print(type(of: input1AsDouble))
-//print("===")
+let input1AsDouble = Double(input1)
+print("---")
+print("input1AsDouble has a data type of:")
+print(type(of: input1AsDouble))
+print("===")
 
 // Attempt to convert a string with no numbers after the decimal sign to a real number
 let input2 = "20"
-//let input2AsDouble = Double(input2)
-//print("---")
-//print("input2AsDouble has a data type of:")
-//print(type(of: input2AsDouble))
-//print("===")
+let input2AsDouble = Double(input2)
+print("---")
+print("input2AsDouble has a data type of:")
+print(type(of: input2AsDouble))
+print("===")
 
 // Attempt to convert a string that is not recognizable as a number to a real number
 let input3 = "twenty"
-//let input3AsDouble = Double(input3)
-//print("---")
-//print("input3AsDouble has a data type of:")
-//print(type(of: input3AsDouble))
-//print("===")
+let input3AsDouble = Double(input3)
+print("---")
+print("input3AsDouble has a data type of:")
+print(type(of: input3AsDouble))
+print("===")
 
 // Attempt to convert a string, "true", to a real number
 let input4 = "true"
-//let input4AsDouble = Double(input4)
-//print("---")
-//print("input4AsDouble has a data type of:")
-//print(type(of: input4AsDouble))
-//print("===")
+let input4AsDouble = Double(input4)
+print("---")
+print("input4AsDouble has a data type of:")
+print(type(of: input4AsDouble))
+print("===")
 
 /*:
  
@@ -66,5 +66,9 @@ let input4 = "true"
  ![option-click](option-click.png)
   
  */
-
+// 1. The conversion worked when the string was 20.0 OR 20
+// 2. When the string had letters in it (no numbers)
+// 3. nil
+// 4. They are both 20 without decimals
+// 5. They are all shown as Optional Doubles
 //: [Next](@next)

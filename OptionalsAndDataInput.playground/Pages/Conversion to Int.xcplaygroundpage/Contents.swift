@@ -15,38 +15,48 @@
  Then uncomment remaining sections of code, one section at a time, running the playground each time to compare to earlier results.
  
  */
+// MARK: 1. input1AsInteger has a data type of: Optional<Int>
 
 // Attempt to convert a string with a numbers after the decimal sign to an integer
 let input1 = "20.0"
-//let input1AsInteger = Int(input1)
-//print("---")
-//print("input1AsInteger has a data type of:")
-//print(type(of: input1AsInteger))
-//print("===")
+let input1AsInteger = Int(input1)
+print("---")
+print("input1AsInteger has a data type of:")
+print(type(of: input1AsInteger))
+print("===")
+
+
+// MARK: 2. input2AsInteger has a data type of: Optional<Int>
 
 // Attempt to convert a string with no numbers after the decimal sign to an integer
 let input2 = "20"
-//let input2AsInteger = Int(input2)
-//print("---")
-//print("input2AsInteger has a data type of:")
-//print(type(of: input2AsInteger))
-//print("===")
+let input2AsInteger = Int(input2)
+print("---")
+print("input2AsInteger has a data type of:")
+print(type(of: input2AsInteger))
+print("===")
+
+
+// MARK: 3. input3AsInteger has a data type of: Optional<Int>
 
 // Attempt to convert a string that is not recognizable as a number to an integer
 let input3 = "twenty"
-//let input3AsInteger = Int(input3)
-//print("---")
-//print("input3AsInteger has a data type of:")
-//print(type(of: input3AsInteger))
-//print("===")
+let input3AsInteger = Int(input3)
+print("---")
+print("input3AsInteger has a data type of:")
+print(type(of: input3AsInteger))
+print("===")
+
+
+// MARK: 4. input4AsInteger has a data type of: Optional<Int>
 
 // Attempt to convert a string, "true", to an integer
 let input4 = "true"
-//let input4AsInteger = Int(input4)
-//print("---")
-//print("input4AsInteger has a data type of:")
-//print(type(of: input4AsInteger))
-//print("===")
+let input4AsInteger = Int(input4)
+print("---")
+print("input4AsInteger has a data type of:")
+print(type(of: input4AsInteger))
+print("===")
 
 /*:
  
@@ -66,5 +76,9 @@ let input4 = "true"
  ![option-click](option-click.png)
   
  */
-
+// 1. Only the number 20 without decimals succeeded in converting into an Int
+// 2. 20.0, twenty, and true all did not succeed in converting into an Int
+// 3. They all showed values of nil
+// 4. It shows 20
+// 5. They are always Optional Integers
 //: [Next](@next)
